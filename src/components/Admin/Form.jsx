@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Form = ({ name, setName, handleSubmit }) => (
   <div className="max-w-3xl w-full bg-white shadow-md rounded-xl p-6">
     <h2 className="text-2xl font-bold text-[#37558D] text-center mb-6 font-Montserrat">
-      Add Invitations
+      Tambahkan undangan
     </h2>
 
     <form className="space-y-4" onSubmit={handleSubmit}>
